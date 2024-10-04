@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+/*Conteiner que embluba tudo*/
+header{
+    background-color: #8442f5;
+}
+#main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue; 
+    
+        
+}
+
+/*Conteiner direito e esquerdo*/
+.right_side_area, .left_side_area{
+    display: flex;
+    column-gap: 90px;
+   }
+
+/*Conteiner da logo*/
+.CEP{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   column-gap: 30px;
+}
+/*Conteiner de pesquisa*/
+.head_search_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    column-gap: 20px;
+    color:white;
+    
+
+}
+/*Conteiner da logo com input*/
+.head_search_bar input {
+    width: 100%;
+    border: none;
+    width: 70%;
+    padding: 20px;
+    padding-left: 50px;
+    background-color: #8442f5;
+}
+
+.header_icons{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    
+}
+
+
+
+   
+
+
