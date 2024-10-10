@@ -5,8 +5,13 @@
 }
 
 .container {
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
+}
+
+
+body {
+    font-family: "inter", sans-serif;
 }
 /*Conteiner que embluba tudo*/
 header{
@@ -25,6 +30,7 @@ header{
 .right_side_area, .left_side_area{
     display: flex;
     column-gap: 90px;
+
    }
 
 /*Conteiner da logo*/
@@ -33,7 +39,10 @@ header{
    align-items: center;
    justify-content: center;
    column-gap: 30px;
+   list-style: none;
+  
 }
+
 /*Conteiner de pesquisa*/
 .head_search_bar{
     display: flex;
@@ -42,9 +51,8 @@ header{
     width: 50%;
     column-gap: 20px;
     color:white;
-    
-
 }
+
 /*Conteiner da logo com input*/
 .head_search_bar input {
     width: 100%;
@@ -53,19 +61,91 @@ header{
     padding: 20px;
     padding-left: 50px;
     background-color: #8442f5;
+    text-decoration: none;
+    color: aliceblue;
 }
 
+.head_search_bar i {
+    position: relative;
+    left:55px
+}
+
+/*Conteiner dos itens*/
 .header_icons{
     
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 50px;
+    column-gap: 80px;
+    color: aliceblue;
     
 }
 
+/*icone bi bi-minecart */
+.header_icons a{
+    list-style: none;
+    color: aliceblue;
+}
 
 
-   
+/*Conteiner login*/
+.login{
+    color: aliceblue;
+    
+}
+.login a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/*Conteiner cabeçalho principal*/
+.principal{
+    background-color: #191970;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    font-size: 14px;
+    padding: 10px;
+    
+    
+
+}
+/*Conteiner cabeçalho principal*/
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: "Inter", sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+/*Começo da main*/
+.imagen_1{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
 
 
+/*Conteiner caixa*/
+
+.promo .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px 0;
+}
+.promo_card {
+    padding: 32px;
+    width: 228px;
+    background-color: aqua;
+}
